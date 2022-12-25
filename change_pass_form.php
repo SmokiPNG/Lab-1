@@ -18,7 +18,7 @@
 				}
 				?> <br>
 				<input type="password" name="old_pass" placeholder="Введите старый пароль"><br>
-				<input type="password" name="pass" placeholder="Введите новый пароль"><br>
+				<input type="password" name="pass1" placeholder="Введите новый пароль"><br>
 				<input type="password" name="pass2" placeholder="Подтвердите пароль"><br>
 				<button type="submit">Сменить пароль</button><br>
 				<a href="index.php">Вернуться</a>
