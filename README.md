@@ -17,8 +17,9 @@
 
 
 - Опишем хореографию
+![Хореография](https://user-images.githubusercontent.com/119607566/209464273-532268af-1a89-458d-8ca2-ebc61b09afd8.png)
 
-![Рис. 2 - Хореография](https://github.com/AlDmitrieva/lab_1_auth/blob/main/%D0%A5%D0%BE%D1%80%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F.png)
+
 - Опишем структуру базы данных
 
 | Название | Тип данных | Длина | Описание                                          |
@@ -33,23 +34,28 @@
 
 1. Регистрируем пользователя (registration.php)
  
- ![](https://github.com/AlDmitrieva/lab_1_auth/blob/main/%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F.png)
+ ![Регистрация](https://user-images.githubusercontent.com/119607566/209464268-e3dcd225-a908-402f-9621-d72231800feb.png)
+
   
   2. Входим в аккаунт (auth.php)
   
-  ![](https://github.com/AlDmitrieva/lab_1_auth/blob/main/%D0%92%D1%85%D0%BE%D0%B4.png)
+  ![Вход](https://user-images.githubusercontent.com/119607566/209464276-b6e757de-d6e8-49d0-8788-b0d104ce7f21.png)
+
   
   3. Выходим из аккаунта (exit.php)
   
-  ![](https://github.com/AlDmitrieva/lab_1_auth/blob/main/%D0%92%D1%8B%D1%85%D0%BE%D0%B4.png)
+  ![Выход](https://user-images.githubusercontent.com/119607566/209464281-c73e605e-63fe-410d-a350-6f5cf12e1e9d.png)
+
   
   4. Меняем пароль, если мы его забыли (forgot_pass.php)
   
-  ![](https://github.com/AlDmitrieva/lab_1_auth/blob/main/%D0%97%D0%B0%D0%B1%D1%8B%D0%BB%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8C.png)
+  ![Забыл пароль](https://user-images.githubusercontent.com/119607566/209464285-5bd58bc6-897e-4f7c-92a0-0d748773e8e2.png)
+
   
   6. Меняем пароль, если мы вошли в аккаунт и захотели его сменить (change_pass.php)
   
-  ![](https://github.com/AlDmitrieva/lab_1_auth/blob/main/%D0%A1%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%BF%D0%B0%D1%80%D0%BE%D0%BB%D1%8F.png)
+  ![Смена пароля](https://user-images.githubusercontent.com/119607566/209464290-42658ff1-dd6b-422d-bb70-237692416950.png)
+
 
 ## Вывод
 Спроектировали и разработали систему авторизации пользователей на протоколе HTTP
