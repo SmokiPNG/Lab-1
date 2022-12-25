@@ -17,6 +17,7 @@
 
 
 - Опишем хореографию
+
 ![Хореография](https://user-images.githubusercontent.com/119607566/209464273-532268af-1a89-458d-8ca2-ebc61b09afd8.png)
 
 
