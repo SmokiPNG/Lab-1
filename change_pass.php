@@ -9,6 +9,7 @@
 	$result = mysqli_query($mysql, $q);
 	$user = $result->fetch_assoc();
 	$hash = crypt($old_pass, $user['SALT']);
+	
 	if($user['HASH'] != $hash){
 		$_SESSION['message'] = "Старый пароль введён неверно!";
 		header('Location: /change_pass_form.php');
