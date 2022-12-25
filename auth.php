@@ -1,4 +1,5 @@
 <?php
+
 	session_start();
 	$mysql = mysqli_connect('localhost', 'root', '', 'User_Info');
 	$login = htmlspecialchars($_POST['login'] ?? '');
@@ -8,6 +9,7 @@
 
 	$result = mysqli_query($mysql, $q);
 	$user = $result->fetch_assoc();
+	
 	if(empty($user)) {
 		$_SESSION['message'] = 'Такого пользователя нет в системе!';
 		header('Location: /sign-in.php');
