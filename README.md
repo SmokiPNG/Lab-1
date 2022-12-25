@@ -34,6 +34,7 @@
 - Опишем алгоритмы 
 
 1. Регистрируем пользователя (registration.php)
+
  
  ![Регистрация](https://user-images.githubusercontent.com/119607566/209464268-e3dcd225-a908-402f-9621-d72231800feb.png)
 
