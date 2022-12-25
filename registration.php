@@ -5,7 +5,7 @@
 	$pass = htmlspecialchars($_POST['pass'] ?? '');
 	$pass2 = htmlspecialchars($_POST['pass2'] ?? '');
 
-	if (mb_strlen($login) < 3 || mb_strlen($login) > 20) {
+	 if (mb_strlen($login) < 3 || mb_strlen($login) > 20) {
 		$_SESSION['message'] = "Недопустимая длина логина!";
 		header('Location: /sign-up.php');
 	}
@@ -18,7 +18,7 @@
 		$_SESSION['message'] = "Пароли не совпадают!";
 		header('Location: /sign-up.php');
 	}
-	else
+	 else
 	{
 	$salt = substr(hash("sha512", time()), 10, 10);
 	$pass =  crypt($pass, $salt);
