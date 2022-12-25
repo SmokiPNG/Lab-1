@@ -7,7 +7,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Форма входа</title>
+	<title>Форма ds[kl</title>
 </head>
 <body>
             <form action="registration.php" method="post" align="center">
@@ -23,7 +23,7 @@
 				<input type="password" name="pass" placeholder="Введите пароль"><br>
 				<input type="password" name="pass2" placeholder="Подтвердите пароль"><br>
 				<button type="submit">Зарегистрироваться</button><br>
-				<a href="sign-in.php">Уже зарегистрированы?</a>
+				<a href="sign-in.php"> Уже зарегистрированы?</a>
 			</form>
 </body>
 </html>
